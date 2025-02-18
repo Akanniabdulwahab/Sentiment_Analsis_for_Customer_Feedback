@@ -92,7 +92,7 @@ c.	MultinimialNB on tf-idf – 84%
 d.	MultinimialNB on bow (Bag of Words) - 85%
 
 ## Conclusion:
-In conclusion, the best performing model is MultinimialNB on bow.
+In conclusion, the best performing model is MultinimialNB on Bag of Words (BOW).
 
 
 
