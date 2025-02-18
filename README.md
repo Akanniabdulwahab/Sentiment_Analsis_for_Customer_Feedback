@@ -29,44 +29,66 @@ c.	Resource allocation optimization: Manual analysis of customer feedback is res
 
 ## Aim of Project
 My objectives can be summarized into key areas. Firstly, I aim to develop a sentiment analysis model using NLP techniques, allowing me to effectively classify customer feedback into positive and negative categories.
+
 Secondly, I focus on implementation and performance comparison of sentiment analysis tools like NLTK and VADER.
+
 In tandem, I aim to provide real-time sentiment analysis results to relevant teams, enabling prompt action. Simultaneously, I’m committed to extracting actionable insights from sentiment data to derive improvements in customer service and product quality. Ultimately, our overarching objective is to proactively address customer concerns and feedback, thereby enhancing the overall customer experience.
 
 ## Tech stack
 1.	Programming Language – Python
+
 Libraries:
+
 a.	NLTK: For natural language processing and sentiment analysis
+
 b.	VADER: For sentiment analysis.
+
 c.	Pandas: For data analysis and manipulation.
+
 d.	Scikit-learn: For machine learning
 
 ## Data Collection
 a.	Data Loading: Loaded in the train and test dataset using the pd.read_csv() format. I also ran data cleaning on the two datasets to see if my dataset was in the right shape for analysis. 
+
 b.	Mapping: I mapped the labels (__label__2, __label__1) into positives and negative respectively.
 
 ## Text Processing
 a.  Tokenization: Created a sentence and performed tokenization on it. Tokenization is the process of splitting sentence into list of words.
+
 b.	Stop words Removal: Removed stop words from the sentence created above. 
+
 c.	After tokenization, the words are returned in a list format but string format. We then need return the words in list to a string using the join function.
+
 d.	After the three steps above, I created a function which brings the three steps together to perform all steps at once.
+
 e.	Applied the function on the train dataset and test dataset.
+
 f.	Created Bag of Words (Bow) And Tf-Idf (Tf-Idf), fitted and transformed on the train dataset while and transformed.
 
 ## Modelling
 I worked on four difference models
+
 a. Vader on text
+
 b. Vader on text_without_stopwords
+
 c. MultinimialNB on tf-idf
+
 d. MultinimialNB on bow (Bag of Words)
 
 For the first and second model, I imported SentimentIntensityAnalyzer from nltk.sentiment.vader library and instantiated it. Then created an example text to analyze the sentiment score of the example text. Also, I created a function that takes in a sentence and returns the sentiment using analyzer to returns positive if compound score is greater than zero, else returns negative. After then I applied the function on the original text (i.e. text with stop words) and text without stop words.
+
 For the MultinimialNB on tf-idf and bow, I imported MultinomialNB from sklearn.naive_bayes library and instantiated it for tf-idf and bow. I went ahead to fit it on train bow & train tf-idf. After training, I predicted on test bow & test tf-idf.
 
 ## Model Evaluation
 I evaluated all the four models using the classification report. The accuracy of each model is:
+
 a.	Vader on text – 72%
+
 b.	Vader on text_without_stopwords - 68%
+
 c.	MultinimialNB on tf-idf – 84%
+
 d.	MultinimialNB on bow (Bag of Words) - 85%
 
 ## Conclusion:
