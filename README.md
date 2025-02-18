@@ -35,7 +35,7 @@ Secondly, I focus on implementation and performance comparison of sentiment anal
 In tandem, I aim to provide real-time sentiment analysis results to relevant teams, enabling prompt action. Simultaneously, I’m committed to extracting actionable insights from sentiment data to derive improvements in customer service and product quality. Ultimately, our overarching objective is to proactively address customer concerns and feedback, thereby enhancing the overall customer experience.
 
 ## Tech stack
-1.	Programming Language – Python
+Programming Language – Python
 
 Libraries:
 
