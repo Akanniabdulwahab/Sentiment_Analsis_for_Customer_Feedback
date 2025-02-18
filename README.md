@@ -1,6 +1,6 @@
 # Sentiment_Analsis_for_Customer_Feedback
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/dd4e8314-2587-49e9-a408-9ad6501d4a48)
 
 ## Table of Cotents
 - [Business Introduction](#Business-Introduction)
