@@ -15,12 +15,16 @@
 
 ## Business Introduction
 TechTrends E-commerce Solutions is a leading name in the e-commerce industry, Operate as a mid-sized company with a growing customer base. Specializing in a wide range of online product, the company places a strong emphasis on ensuring customer satisfaction. Renowned for its online presence, TechTrends actively engages with its customers, receiving a substantial volume of valuable reviews and feedback across various platforms. They face a challenge of efficiently processing and deriving valuable insight from the influx of customers reviews they receive daily. They want to develop a model to help them effectively classify customers feedback into positive and negative categories.
+
 TechTrends E-commerce Solutions boast an impressive online presence, they have garnered over 500,000 loyal customers. This trust has translated into an astounding 98% customer satisfaction rate, and they continue to receive an average of 10,000 positive revies and feedback each month across various platforms. These statistics not only reflect their unwavering dedication to providing quality service but also underscore their position as a market leader in the e-commerce sector.
 
 ## Business Problem
 TechTrends E-commerce Solutions, although a thriving player in the e-commerce sector, faces the challenge of efficiently processing and deriving valuable insights from substantial influx of customer feedback and reviews it receives daily. The company’s overarching goal is to enhance customer satisfaction and continually refine its product and service offerings. To achieve this, TechTrends E-commerce Solutions seeks to address the following specific business problem.
+
 a.	Managing feedback overload: The company struggles with managing the sheer volume of customer feedback effectively. The influx of reviews from its extensive customer base is overwhelming and requires a streamlined approach to handle efficiently.
+
 b.	Improving sentiment classification: TechTrends aims to enhance the accuracy of sentiment classification for feedback. Currently, the categorization of feedback into positive, negative, or neutral sentiments is not as precise as desired. Improving classification process is crucial for extracting more meaning insights.
+
 c.	Resource allocation optimization: Manual analysis of customer feedback is resource-intensive and time-consuming. TechTrends E-commerce Solutions seeks to reduce these manual efforts through automation to allocate resources more effectively and efficiently.
 
 ## Aim of Project
